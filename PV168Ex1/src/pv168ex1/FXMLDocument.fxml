@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="pane" minHeight="0.0" minWidth="0.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pv168ex1.FXMLDocumentController">
+   <children>
+      <TableView fx:id="tw2" layoutX="14.0" layoutY="22.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="305.0" AnchorPane.topAnchor="5.0">
+         <columns>
+            <TableColumn fx:id="idcol" prefWidth="49.0" text="Id" />
+            <TableColumn fx:id="ncol" prefWidth="180.0" text="Name" />
+            <TableColumn fx:id="rcol" maxWidth="1.7976931348623157E308" minWidth="-Infinity" prefWidth="65.0" text="Room" />
+         </columns>
+      </TableView>
+      <ListView fx:id="lw" layoutX="300.0" layoutY="157.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="305.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="130.0" />
+      <Label layoutX="334.0" layoutY="26.0" prefHeight="17.0" prefWidth="16.0" text="Id:" textAlignment="RIGHT" AnchorPane.rightAnchor="250.0" AnchorPane.topAnchor="30.0" />
+      <Label layoutX="330.0" layoutY="43.0" text="Name:" AnchorPane.rightAnchor="250.0" AnchorPane.topAnchor="50.0" />
+      <Label layoutX="330.0" layoutY="60.0" text="Room:" AnchorPane.rightAnchor="250.0" AnchorPane.topAnchor="70.0" />
+      <Label layoutX="325.0" layoutY="77.0" text="Teacher:" AnchorPane.rightAnchor="250.0" AnchorPane.topAnchor="90.0" />
+      <Label fx:id="idL" layoutX="360.0" layoutY="30.0" AnchorPane.leftAnchor="380.0" AnchorPane.topAnchor="30.0" />
+      <Label fx:id="nL" layoutX="360.0" layoutY="50.0" AnchorPane.leftAnchor="380.0" AnchorPane.topAnchor="50.0" />
+      <Label fx:id="rL" layoutX="360.0" layoutY="70.0" AnchorPane.leftAnchor="380.0" AnchorPane.topAnchor="70.0" />
+      <Label fx:id="tL" layoutX="360.0" layoutY="90.0" AnchorPane.leftAnchor="380.0" AnchorPane.topAnchor="90.0" />
+      <Label layoutX="315.0" layoutY="100.0" text="Students:" AnchorPane.rightAnchor="250.0" AnchorPane.topAnchor="110.0" />
+   </children>
+</AnchorPane>
